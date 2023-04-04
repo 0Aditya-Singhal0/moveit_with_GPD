@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: ur_description
+    relative_path: urdf/ur_robotiq_sensors.urdf.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/ur_robotiq.srdf
+  CONFIG:
+    author_name: none
+    author_email: none@gmail.com
+    generated_timestamp: 1680606493
